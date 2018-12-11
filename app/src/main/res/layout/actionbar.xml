@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+
+
+    <AutoCompleteTextView
+        android:gravity="center"
+        android:id="@+id/editText1"
+        android:layout_width="258dp"
+        android:layout_height="25dp"
+        android:ems="50"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:textColor="#000000"
+        android:background="@drawable/search_shape">
+
+        <requestFocus />
+
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/dot"
+        android:text="@string/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:paddingRight="7dp"
+        android:layout_toRightOf="@+id/editText1"
+        />
+
+</RelativeLayout>

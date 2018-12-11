@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hot_deal_actvity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.silasonyango.ewe.SplashLauncher">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/hot_deal_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="none">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/consa"
+        android:textSize="50sp"
+        android:text="Klabuu round hii imeweza\n\nTrade at the convenience of your seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="35dp"
+        android:orientation="vertical">
+
+        <!-- <com.konza.app.CircleIndicator
+             android:id="@+id/splash_indicator"
+             android:layout_width="fill_parent"
+             android:layout_height="40dp"
+             android:layout_above="@+id/layout_btns"
+             android:paddingBottom="10dp"
+             custom:ci_drawable_unselected="@drawable/unselected" />-->
+
+        <LinearLayout
+            android:id="@+id/linear_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button1"
+                android:text="Sign In"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button2"
+                android:text="Sign Up" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_asGuest"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/as_guest"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup">
+        <RadioButton
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:checked="true" />
+        <RadioButton
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2" />
+        <RadioButton
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3" />
+        <RadioButton
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4" />
+        <RadioButton
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5" />
+        <RadioButton
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6" />
+    </RadioGroup>
+</FrameLayout>

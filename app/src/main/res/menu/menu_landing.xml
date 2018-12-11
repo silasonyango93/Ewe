@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Rooms">
+        <menu>
+            <item
+                android:id="@+id/sellRoom"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sell your room" />
+            <item
+                android:id="@+id/buyRoom"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Buy a room" />
+        </menu>
+    </item>
+
+
+    <item android:title="Product Search">
+        <menu>
+
+            <item
+                android:id="@+id/electronics"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Electronics" />
+            <item
+                android:id="@+id/men_clothing"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Men's clothing" />
+            <item
+                android:id="@+id/women_clothing"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Women's clothing" />
+            <item
+                android:id="@+id/men_footwear"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Men's footwear" />
+            <item
+                android:id="@+id/women_footwear"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Women's footwear" />
+            <item
+                android:id="@+id/stationery"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Stationery" />
+            <item
+                android:id="@+id/bedding"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Bedding" />
+            <item
+                android:id="@+id/utensils"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kitchen utensils" />
+            <item
+                android:id="@+id/laundry"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Laundry items" />
+            <item
+                android:id="@+id/household"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Household items" />
+            <item
+                android:id="@+id/food"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Food &amp; ingredients" />
+
+            <item
+                android:id="@+id/airtime"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Phone airtime" />
+
+            <item
+                android:id="@+id/cosmetics"
+                android:icon="@drawable/ic_menu_share"
+                android:title="ornaments &amp; cosmetics" />
+
+            <item
+                android:id="@+id/regalia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Men's hand-neck wear" />
+
+            <item
+                android:id="@+id/any_other"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Any other" />
+            <item
+                android:id="@+id/customizedSearch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Your customized search" />
+            <item
+                android:id="@+id/persistentSearch"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Persistent search" />
+        </menu>
+    </item>
+
+    <item android:title="HOSTEL ROOM SEARCHES">
+        <menu>
+
+        </menu>
+    </item>
+    <item android:title="People selling rooms">
+        <menu>
+            <item
+                android:id="@+id/sellMainCampus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Main Campus" />
+            <item
+                android:id="@+id/sellChiromo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chiromo Campus" />
+            <item
+                android:id="@+id/sellParklands"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Parklands" />
+            <item
+                android:id="@+id/sellLowerKabete"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Lower Kabete" />
+            <item
+                android:id="@+id/sellUpperKabete"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Upper Kabete" />
+            <item
+                android:id="@+id/sellKNH"
+                android:icon="@drawable/ic_menu_send"
+                android:title="KNH Campus" />
+            <item
+                android:id="@+id/sellKikuyuCampus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Kikuyu Campus" />
+            <item
+                android:id="@+id/sellKenyaScience"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kenya Science" />
+            <item
+                android:id="@+id/sellSpecificHostel"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Search specific hostel" />
+            <item
+                android:id="@+id/sellRoomCustomizedSearch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Customized search" />
+            <item
+                android:id="@+id/sellRoomPersistentSearch"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Persistent search" />
+        </menu>
+    </item>
+
+    <item android:title="People willing to buy rooms">
+        <menu>
+            <item
+                android:id="@+id/buyMainCampus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Main Campus" />
+            <item
+                android:id="@+id/buyChiromo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Chiromo Campus" />
+            <item
+                android:id="@+id/buyParklands"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Parklands" />
+            <item
+                android:id="@+id/buyLowerKabete"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Lower Kabete" />
+            <item
+                android:id="@+id/buyUpperKabete"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Upper Kabete" />
+            <item
+                android:id="@+id/buyKNH"
+                android:icon="@drawable/ic_menu_send"
+                android:title="KNH Campus" />
+            <item
+                android:id="@+id/buyKikuyuCampus"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Kikuyu Campus" />
+            <item
+                android:id="@+id/buyKenyaScience"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kenya Science" />
+            <item
+                android:id="@+id/buySpecificHostel"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Search specific hostel" />
+            <item
+                android:id="@+id/buyRoomCustomizedSearch"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Customized search" />
+            <item
+                android:id="@+id/buyRoomPersistentSearch"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Persistent search" />
+        </menu>
+    </item>
+
+
+
+</menu>

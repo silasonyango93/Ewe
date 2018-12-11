@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e4e4"
+    tools:context=".Menu">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e6e4e4"
+        tools:context=".Menu">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_hot_deal_actvity"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        tools:context="com.example.silasonyango.ewe.Menu">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/hot_deal_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="top"
+
+            android:scrollbars="none">
+        </android.support.v4.view.ViewPager>
+
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroup"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <RelativeLayout
+            android:id="@+id/rlMensClothing"
+            android:background="#fdfdfd"
+            android:layout_margin="5dp"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvShirt"
+                android:layout_margin="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Men's Fashion"
+                android:textSize="19sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Clothing"
+                android:layout_marginLeft="5dp"
+                android:textSize="13sp"
+                android:layout_below="@+id/tvShirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/shirt"
+                android:layout_toRightOf="@+id/tvShirt"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlWomensClothing"
+            android:background="#fdfdfd"
+            android:layout_margin="5dp"
+            android:layout_weight=".50"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvBlouse"
+                android:layout_margin="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="Women's"
+                android:textSize="19sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Clothing"
+                android:layout_marginLeft="5dp"
+                android:textSize="13sp"
+                android:layout_below="@+id/tvBlouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/blouse"
+                android:layout_toRightOf="@+id/tvBlouse"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlElectronics"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvLaptop"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Electronics"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Appliances"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvLaptop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/laptop"
+                    android:layout_toRightOf="@+id/tvLaptop"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlMensShoes"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvManShoe"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Men's"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Shoes"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvManShoe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/manshoes"
+                    android:layout_toRightOf="@+id/tvManShoe"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlLadysShoes"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvLadyShoe"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Ladies'"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Shoes"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvLadyShoe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/ladyshoe"
+                    android:layout_toRightOf="@+id/tvLadyShoe"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rlStationery"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvStationery"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="School set"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Stationery"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvStationery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/stationery"
+                    android:layout_toRightOf="@+id/tvStationery"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlBedding"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvBedding"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Bed &amp; Bedding"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Bedding"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvBedding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/bed"
+                    android:layout_toRightOf="@+id/tvBedding"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rlCosmetics"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvCosmetics"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Cosmetics"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Beauty"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvCosmetics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/cosmetics"
+                    android:layout_toRightOf="@+id/tvCosmetics"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlKitchenware"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvKitchenWare"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Kitchen-ware"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Utensils"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvKitchenWare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/pan"
+                    android:layout_toRightOf="@+id/tvKitchenWare"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlLaundry"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvLaundry"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Laundry"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Laundry Items"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvLaundry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/laundry"
+                    android:layout_toRightOf="@+id/tvLaundry"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlHouseHolds"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvHouseHolds"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="House-holds"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="House-hold items"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvHouseHolds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/kettle"
+                    android:layout_toRightOf="@+id/tvHouseHolds"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlFood"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvFood"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Food"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Food &amp; Ingredients"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvFood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/food"
+                    android:layout_toRightOf="@+id/tvFood"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlAirtime"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvAirtime"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Air-time"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Phone accessories"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvAirtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/airtime"
+                    android:layout_toRightOf="@+id/tvAirtime"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlMensRegalia"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvWatch"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Men's"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Regalia"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvWatch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/watch"
+                    android:layout_toRightOf="@+id/tvWatch"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <RelativeLayout
+                android:id="@+id/rlWomensRegalia"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvNeclace"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Women's"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Regalia"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvNeclace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/neclace"
+                    android:layout_toRightOf="@+id/tvNeclace"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlBuyersRequests"
+                android:background="#fdfdfd"
+                android:layout_margin="5dp"
+                android:layout_weight=".50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvSpy"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Buyer's"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="Requests"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:layout_below="@+id/tvSpy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@drawable/spy"
+                    android:layout_toRightOf="@+id/tvSpy"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:paddingTop="8dp"
+        android:paddingBottom="3dp"
+        android:textSize="20sp"
+        android:id="@+id/tvShop"
+        android:text="SHOPS OF THE WEEK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/shops_rv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scrollbars="none">
+        </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+</ScrollView>
